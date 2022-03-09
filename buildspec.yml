@@ -17,4 +17,6 @@ build:
 post_build:
     commands:
         - echo "we are in the post bild build phase"
+artifacts:
+    files: imagedefinitions.json
 
