@@ -21,6 +21,6 @@ post_build:
 artifacts:
   files:
     - '**/*'
-  base-directory: test-codedeploy-artifact
-  name: build-artifact-name
+  base-directory: base_dir
+  name: test-codedeploy-artifact
   discard-paths: no
